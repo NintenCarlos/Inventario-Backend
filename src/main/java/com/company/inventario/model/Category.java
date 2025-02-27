@@ -15,9 +15,9 @@ import lombok.Data;
 
 
 public class Category implements Serializable {	
+	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
-	
 	/* Los Elementos que va a llevar la tabla. */
 	private Long id;  /* Long => Entero largo */
 	private String name;
